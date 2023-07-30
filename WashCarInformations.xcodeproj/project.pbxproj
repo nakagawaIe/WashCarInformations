@@ -14,6 +14,7 @@
 		C086D5472A7649AE0040D1D5 /* WashCarInformationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086D5462A7649AE0040D1D5 /* WashCarInformationsTests.swift */; };
 		C086D5512A7649AE0040D1D5 /* WashCarInformationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086D5502A7649AE0040D1D5 /* WashCarInformationsUITests.swift */; };
 		C086D5532A7649AE0040D1D5 /* WashCarInformationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086D5522A7649AE0040D1D5 /* WashCarInformationsUITestsLaunchTests.swift */; };
+		C086D5602A7654B50040D1D5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086D55F2A7654B50040D1D5 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C086D54C2A7649AE0040D1D5 /* WashCarInformationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashCarInformationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C086D5502A7649AE0040D1D5 /* WashCarInformationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashCarInformationsUITests.swift; sourceTree = "<group>"; };
 		C086D5522A7649AE0040D1D5 /* WashCarInformationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashCarInformationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C086D55F2A7654B50040D1D5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				C086D5372A7649AC0040D1D5 /* ContentView.swift */,
 				C086D5392A7649AE0040D1D5 /* Assets.xcassets */,
 				C086D53B2A7649AE0040D1D5 /* Preview Content */,
+				C086D55F2A7654B50040D1D5 /* Color.swift */,
 			);
 			path = WashCarInformations;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				C086D5382A7649AC0040D1D5 /* ContentView.swift in Sources */,
 				C086D5362A7649AC0040D1D5 /* WashCarInformationsApp.swift in Sources */,
+				C086D5602A7654B50040D1D5 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

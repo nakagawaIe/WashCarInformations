@@ -11,7 +11,8 @@ struct ContentView: View {
     @State var selection = 1
 
     init(){
-        UITabBar.appearance().backgroundColor = UIColor.lightGray
+        UITabBar.appearance().backgroundColor = UIColor.white
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.textColor.opacity(0.5))
     }
 
     var body: some View {
@@ -32,6 +33,8 @@ struct ContentView: View {
                     Label("Page3", systemImage: "3.circle")
                 }
         }
+        .accentColor(.myAccentColor)
+        .foregroundColor(.textColor)
     }
 }
 
