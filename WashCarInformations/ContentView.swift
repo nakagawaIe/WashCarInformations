@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selection = 1
+
+    init(){
+        UITabBar.appearance().backgroundColor = UIColor.lightGray
+    }
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView(selection: $selection) {
+            Text("1")
+                .tag(1)
+                .tabItem {
+                    Label("天気予報", systemImage: "cloud.circle.fill")
+                }
+            Text("2")
+                .tag(2)
+                .tabItem {
+                    Label("Page2", systemImage: "2.circle")
+                }
+            Text("3")
+                .tag(3)
+                .tabItem {
+                    Label("Page3", systemImage: "3.circle")
+                }
         }
-        .padding()
     }
 }
 
