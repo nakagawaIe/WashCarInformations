@@ -11,8 +11,10 @@ struct ContentView: View {
     @State var selection = 1
 
     init(){
-        UITabBar.appearance().backgroundColor = UIColor.white
-        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.textColor.opacity(0.5))
+        let appearance = UITabBarAppearance()
+        appearance.shadowColor = .gray
+        appearance.backgroundColor = UIColor.white
+        UITabBar.appearance().scrollEdgeAppearance = appearance
     }
 
     var body: some View {
